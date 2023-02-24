@@ -7,7 +7,6 @@
 I have installed the AWS CLI via CLI in gitpod terminal and pushed the changes to the gitpod.yml file. 
 
 ##Recreate Conceptual Diagram in Lucid Charts or on a Napkin. 
-
 ![Creating a system design for Cruddr on Napkin](assets/conceptual-diagram-cruddr.png)
 
 
