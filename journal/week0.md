@@ -6,12 +6,15 @@
 
 I have installed the AWS CLI via CLI in gitpod terminal and pushed the changes to the gitpod.yml file. 
 
+[Proof of the CLI being installed](https://github.com/TejenderPrasad/aws-bootcamp-cruddur-2023/blob/main/.gitpod.yml)
+
 ### Recreate Conceptual Diagram in Lucid Charts or on a Napkin. 
 ![Creating a system design for Cruddr on Napkin](assets/conceptual-diagram-cruddr.png)
 
-### Created a billing Alarm using the CLI - US-EAST-1. 
+### Created a billing Alarm using the CLI  --region in US-EAST-1. 
 I created a billing alarm using the AWS UI also practised my hands on creating the creating the cloud watch alarm via CLI 
 ![Creating a billing alarm.](assets/Cloudwatch-billingalarm1.jpg)
+[Proof of the Alarm created by CLI](https://github.com/TejenderPrasad/aws-bootcamp-cruddur-2023/blob/main/aws/json/alarm-config.json)
 
 ### Generated AWS Credentials 
 Created a user for myself and added to a group called as - admins and assigned the group admin privileges, downloaded the .csv for the secret access keys generated
@@ -20,6 +23,8 @@ Created a user for myself and added to a group called as - admins and assigned t
 I created a budget using the CLI and AWS budgets UI, Initially it was tough with the syntax and everything - learnt to troubleshoot the CLI and made sure the syntax was correct. It took me two hours + to fix this, Finally phew I got over it. 
 ![Creating a budget on cloud watch using CLI](assets/Cruddr-%20budget1.png) 
 ![Creating a budget on cloud watch using CLI](assets/AWS-BUDGET-CRUDDR%20SNIPPET.png)
+[Proof of the budget created by CLI](https://github.com/TejenderPrasad/aws-bootcamp-cruddur-2023/blob/main/aws/json/budget.json)
+
 
 ### Recreating the Logical app design using the Lucid charts. 
 ![Creating a system architectural design for Cruddr on Lucid charts](assets/SNIPPET-OF-THE-LOGICAL-APP-DESIGNED-CRUDDR.png)
