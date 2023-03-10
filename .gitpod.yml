@@ -6,7 +6,7 @@ tasks:
         cd gitpod/workspace/aws-bootcamp-cruddur-2023/
         curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
         unzip awscliv2.zip
-        sudo ./aws/install -i gitpod/workspace/aws-bootcamp-cruddur-2023 -b /usr/local/bin
+        sudo ./aws/install -i /workspace/aws-bootcamp-cruddur-2023/-b /usr/local/bin
         cd "$THEIA_WORKSPACE_ROOT"
 
 
