@@ -1,12 +1,8 @@
 from flask import Flask
 from flask import request
 from flask_cors import CORS, cross_origin
-import os
 import logging
-import os
-from flask import Flask
-import boto3
-import watchtower
+ 
 
 from services.home_activities import *
 from services.user_activities import *
@@ -96,7 +92,7 @@ LOGGER.info("it is what it is")
 def after_request(response):
     timestamp = strftime('[%Y-%b-%d %H:%M]')
     LOGGER.error('%s %s %s %s %s %s', timestamp, request.remote_addr, request.method, request.scheme, request.full_path, response.status)
-    return response
+    return response 
 
 @app.route("/api/message_groups", methods=['GET'])
 def data_message_groups():
