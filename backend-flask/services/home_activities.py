@@ -1,11 +1,16 @@
 from datetime import datetime, timedelta, timezone
 from opentelemetry import trace
+import logging
+import os
+from flask import Flask
+import boto3
+import watchtower
 
 tracer = trace.get_tracer("home.activities")
 
 class HomeActivities:
-  def run():
-
+   def run():
+    # logger.info("HomeActivities")
     with tracer.start_as_current_span("home-activities-mock-data"):
       span = trace.get_current_span()
       now = datetime.now(timezone.utc).astimezone()
