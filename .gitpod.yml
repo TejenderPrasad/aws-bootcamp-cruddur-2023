@@ -4,7 +4,7 @@ tasks:
       AWS_CLI_AUTO_PROMPT: auto-prompt
     init: |
       sudo apt-get update
-      cd /workspace/aws-bootcamp-cruddur-2023
+      cd /workspace
       curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
       unzip -q awscliv2.zip
       yes y | sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin -y
