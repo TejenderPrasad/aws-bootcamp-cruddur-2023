@@ -2,9 +2,7 @@ from datetime import datetime, timedelta, timezone
 from opentelemetry import trace
 import logging
 import os
-from flask import Flask
-import boto3
-import watchtower
+ 
 
 tracer = trace.get_tracer("home.activities")
 
