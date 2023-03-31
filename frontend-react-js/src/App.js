@@ -31,10 +31,6 @@ Amplify.configure({
   }
 });
 
-
-
-
-
 const router = createBrowserRouter([
   {
     path: "/",
