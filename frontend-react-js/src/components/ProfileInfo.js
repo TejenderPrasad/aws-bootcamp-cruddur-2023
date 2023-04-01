@@ -11,7 +11,6 @@ export default function ProfileInfo(props) {
   const click_pop = (event) => {
     setPopped(!popped)
   }
-
   const signOut = async () => {
     try {
         await Auth.signOut({ global: true });
