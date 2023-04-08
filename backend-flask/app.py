@@ -78,6 +78,7 @@ cognito_jwt_token = CognitoJwtToken(
 
 
 
+
 # X-RAY ----------
 XRayMiddleware(app, xray_recorder)
 

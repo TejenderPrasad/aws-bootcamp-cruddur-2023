@@ -23,7 +23,7 @@ export default function SignupPage() {
           username: email,
           password: password,
           attributes: {
-              name: name,
+              name:  name,
               email: email,
               preferred_username: username,
           },
